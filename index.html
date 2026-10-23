@@ -2,18 +2,18 @@
 Sweat privacy policy
 Last updated October 20, 2026
 
-Sweat is a private training app for the A Tribe Called Sweat Hood to Coast team. It is run by the team organizer for teammates, not by a company that sells data. This page explains what the app collects, who can see it, and how to delete it.
+Sweat is a private training app for invite-only relay running teams. It is run by an individual organizer for teammates, not by a company that sells data. Sweat is not affiliated with or endorsed by any race or race organizer. This page explains what the app collects, who can see it, and how to delete it.
 
 What the app collects
 Your account: the email address you sign in with, the name you choose, and the hometown you type in. If you use Sign in with Apple or Google, the app receives only your name and email address from them; with Apple you can choose to share a private relay address instead of your real email.
 Your runs: the date, start time, distance, moving time, pace, elevation gain, run type, title, notes, effort score, the place you type in, the landmark that marks your miles on the team course, and the name of the app that recorded it (for example Strava, Garmin or Apple Watch).
 Workout files you choose to import (GPX or TCX). The file is read on your phone; only the run summary and the trimmed route are saved, never the file itself.
-Route maps from runs you record with GPS or import from Apple Health. The first and last quarter mile of every route is removed before it is saved, so your start and finish (often your home) are never stored or shown.
+Route maps from runs you record with GPS or import from Apple Health or Health Connect. The first and last quarter mile of every route is removed before it is saved, so your start and finish (often your home) are never stored or shown.
 Kudos and comments you give on teammates' runs.
 Cheers and nudges you send to teammates, and the race-day leg plan (who runs which leg, predicted and actual leg times).
-Health data, only if you allow it: running, walking and hiking workouts, heart rate, VO₂ max and resting heart rate from Apple Health, and heart rate you type in yourself.
+Health data, only if you allow it: running, walking and hiking workouts, heart rate, VO₂ max and resting heart rate from Apple Health on iPhone or Health Connect on Android, and heart rate you type in yourself.
 A profile photo, only if you choose one. It is resized, stored with the app's database provider, and shown to your teammates in place of your initials. Remove it any time by tapping your photo on the You tab; deleting your account deletes it too.
-If you fill in a run from a screenshot, the picture is read on your phone by Apple's built-in text recognition. Only the numbers you save are uploaded; the picture itself is not.
+If you fill in a run from a screenshot, the picture is read on your phone by the phone's built-in text recognition (Apple's on iPhone, Google's ML Kit on Android). Only the numbers you save are uploaded; the picture itself is not.
 Location
 The app uses your location only while you are recording a run, including while your screen is locked during that recording. Your phone shows the location indicator whenever this is happening.
 On race day, if you tap 'Record my leg + share location', your teammates see your latest position on the race map while you run your leg, updated about every 30 seconds. Sharing stops when you finish or discard that recording.
@@ -22,12 +22,12 @@ The route planner uses your location only when you tap 'Start here'.
 The app does not track your location at any other time.
 Microphone: used only when you tap 'Record my own' on the Sounds screen, to save a voice line of up to 4 seconds. The recording stays on your phone and is never uploaded.
 Health data
-The app reads Apple Health only after you give permission, and only to add your workouts to the feed and to show your private fitness trends.
-If you turn on 'Add new runs automatically' under Connected apps, the app checks Apple Health for new workouts when you open it and when iOS tells it a new workout was saved, including in the background. It adds runs from the last 48 hours to the team feed. This covers workouts any app saved to Health, such as Strava, Garmin Connect or Nike Run Club. Turn it off at any time under Connected apps.
-Sweat does not connect to your Strava, Garmin or other accounts and receives nothing from those companies directly. It only reads what those apps saved to Apple Health on your phone, with your permission.
+The app reads Apple Health (iPhone) or Health Connect (Android) only after you give permission. It only reads; it never writes, and only to add your workouts to the feed and to show your private fitness trends.
+If you turn on 'Add new runs automatically' under Connected apps, the app checks Apple Health or Health Connect for new workouts when you open it, and on iPhone also when iOS tells it a new workout was saved, including in the background. It adds runs from the last 48 hours to the team feed. This covers workouts any app saved to Health, such as Strava, Garmin Connect, Nike Run Club, Samsung Health or Fitbit. Turn it off at any time under Connected apps.
+Sweat does not connect to your Strava, Garmin or other accounts and receives nothing from those companies directly. It only reads what those apps saved to Apple Health or Health Connect on your phone, with your permission.
 VO₂ max, resting heart rate and your heart-rate history are visible only to you. The database itself blocks every other account from reading them.
 Heart rate appears on your team posts only if you turn on 'Share my heart rate with the team' under You. It is off by default.
-Health data is never used for advertising or marketing, never sold, never shared with data brokers, and never stored in iCloud. The app does not write anything to Apple Health.
+Health data is never used for advertising or marketing, never sold, never shared with data brokers, and never stored in iCloud. The app does not write anything to Apple Health or Health Connect.
 Who can see what
 Teammates on your team can see your name, hometown, runs, route maps, kudos, comments, cheers, your race legs and times, and your race-day position if you choose to share it.
 People who are not on your team cannot see anything about you.
@@ -40,13 +40,15 @@ Where your data is stored
 Data is stored with Supabase, the app's database and sign-in provider, and is encrypted in transit.
 Sign-in codes are sent by email through the app's email provider.
 The app has no ads, no advertising trackers and no third-party analytics, and your data is never sold.
-If you turn on notifications, your phone's push token is stored so the app can tell you about kudos, comments and nudges. Notifications are sent through Expo's push service and Apple's notification service, and include only the teammate's name, the run, or the nudge message. Turn them off under You, then Notifications, or in iPhone Settings. Signing out removes the token.
+If you turn on notifications, your phone's push token is stored so the app can tell you about kudos, comments and nudges. Notifications are sent through Expo's push service and Apple's or Google's notification service, and include only the teammate's name, the run, or the nudge message. Turn them off under You, then Notifications, or in your phone's Settings. Signing out removes the token.
 Your choices and deleting your data
 Delete any run or comment from its page at any time.
 Delete your whole account in the app under You, then 'Delete my account'. This immediately and permanently removes your profile, runs, route maps, kudos, comments and private health data. If you started the team, it passes to a teammate. If you signed in with Apple, the app also revokes its access to your Apple ID.
-Turn off location or Apple Health access at any time in your iPhone's Settings.
+Turn off location or health access at any time: on iPhone in Settings (Health → Data Access & Devices), on Android in Settings → Apps → Sweat and in the Health Connect app.
 Children
 Sweat is not intended for anyone under 13, and we do not knowingly collect data from children under 13.
 Changes and contact
 If this policy changes, the new version will be posted here with a new date.
 Questions or deletion requests: jrufino513@gmail.com
+
+Privacy update for 1.0.1
